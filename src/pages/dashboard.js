@@ -31,7 +31,7 @@ function Dashboard() {
         }
 
         try {
-            const response = await fetch('http://localhost:4000/api/v3/account/registerip', {
+            const response = await fetch('http://144.217.158.77:4000/api/v3/account/registerip', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
@@ -71,7 +71,7 @@ function Dashboard() {
     useEffect(() => {
         const fetchDashboardData = async () => {
             try {
-                const response = await fetch('http://localhost:4000/api/v3/account/dashboard', {
+                const response = await fetch('http://144.217.158.77:4000/api/v3/account/dashboard', {
                     method: 'GET',
                     headers: {
                         'Content-Type': 'application/json',
@@ -130,7 +130,7 @@ function Dashboard() {
 
     const buttonDownload = async (key) => {
         try {
-            const response = await fetch(`http://localhost:4000/api/v1/downloads/plugins=${key.toLowerCase()}.jar`, {
+            const response = await fetch(`http://144.217.158.77:5000/api/v1/downloads/plugins=${key.toLowerCase()}.jar`, {
                 method: 'GET',
                 headers: {
                     'Content-Type': 'application/json',
