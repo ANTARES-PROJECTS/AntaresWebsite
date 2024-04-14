@@ -223,7 +223,7 @@ function Dashboard() {
                                 <div className="containerIP">
                                     <div className="cardIP">
                                         <p className='titulo'>AntaresCore.jar</p>
-                                        <button className="donate-button"><a className='semtexto'>Baixar</a></button>
+                                        <button onClick={() => buttonDownload("AntaresCore")} className="donate-button"><a className='semtexto'>Baixar</a></button>
                                     </div>
                                 </div>
                             );
