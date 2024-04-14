@@ -28,7 +28,7 @@ function Produtos() {
         }
 
         try {
-            const response = await fetch('http://localhost:4000/api/v1/payments/create', {
+            const response = await fetch('https://144.217.158.77:4001/api/v1/payments/create', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
