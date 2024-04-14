@@ -18,7 +18,8 @@ function Home() {
 
             <div class="container">
                 <div class="card">
-                    <h2>EM CONSTRUÇÃO!</h2>
+                    <h2>Bem-vindo à AntaresPlugins!</h2>
+                    <p>Somos especialistas em criar plugins para servidores Bukkit, oferecendo ferramentas poderosas para personalizar e aprimorar a experiência do seu servidor. Nossa equipe garante alta qualidade e compatibilidade, proporcionando soluções que elevam seu servidor a novos patamares. Explore nosso catálogo e descubra como podemos transformar sua visão em realidade virtual.</p>
                 </div>
                 <div>
                     <iframe src="https://discord.com/widget?id=818843587676602378&theme=dark" width="350" height="418"
