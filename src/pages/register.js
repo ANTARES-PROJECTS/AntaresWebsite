@@ -42,7 +42,7 @@ function Register() {
         }
 
         try {
-            const response = await fetch('http://localhost:4000/api/v3/account/register', {
+            const response = await fetch('http://144.217.158.77:4000/api/v3/account/register', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
