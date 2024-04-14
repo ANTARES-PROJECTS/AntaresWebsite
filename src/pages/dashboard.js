@@ -130,7 +130,7 @@ function Dashboard() {
 
     const buttonDownload = async (key) => {
         try {
-            const response = await fetch(`http://144.217.158.77:5000/api/v1/downloads/plugins=${key.toLowerCase()}.jar`, {
+            const response = await fetch(`https://144.217.158.77:5000/api/v1/downloads/plugins=${key.toLowerCase()}.jar`, {
                 method: 'GET',
                 headers: {
                     'Content-Type': 'application/json',
