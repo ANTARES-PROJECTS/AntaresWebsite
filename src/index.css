@@ -5,12 +5,12 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'Nunito Sans', sans-serif;
-  background-color: #17202A;
+  background-color: #1C1C1C;
 }
 
 nav {
   display: flex;
-  background-color: #263240;
+  background-color: #454545;
   color: #ffffff;
   text-align: center;
   padding: 20px 10px 20px 20px; /* Adicionado padding nas laterais para criar espaço */
@@ -68,12 +68,12 @@ nav li > a:hover:before {
 }
 
 nav li > a:hover {
-  color: #1c9cf3;
+  color: #242424;
 }
 
 
 .buttonLogin {
-  background-color: #1c9cf3;
+  background-color: #242424;
   color: #fff;
   border: none;
   border-radius: 6px;
@@ -97,7 +97,7 @@ nav li > a:hover {
 .card {
   width: 65%;
   color: #f0f0f0;
-  background-color: #1c9cf3;
+  background-color: #242424;
   padding: 20px;
   border-radius: 8px;
 }
@@ -106,7 +106,7 @@ nav li > a:hover {
   font-family: 'Nunito Sans', sans-serif;
   text-align: center;
   padding: 21px;
-  background-color: #263240;
+  background-color: #454545;
   color: #f0f0f0;
 }
 
@@ -117,7 +117,7 @@ margin-top: 15px;
 .button {
   font-family: "Kanit", sans-serif;
   background-color: transparent;
-  color: #1c9cf3;
+  color: #242424;
   border: none;
   padding: 10px 20px;
   font-size: 20px;
@@ -129,16 +129,16 @@ margin-top: 15px;
 }
 
 ::-webkit-scrollbar-track {
-  background-color: #17202A;
+  background-color: #1C1C1C;
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: #1c9cf3;
+  background-color: #242424;
   border-radius: 5px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background-color: #17202A;
+  background-color: #1C1C1C;
 }
 
 .containerRegister {
@@ -172,7 +172,7 @@ margin-top: 15px;
   width: 94%;
   padding: 10px;
   font-size: 16px;
-  border: 1px solid #1c9cf3;
+  border: 1px solid #242424;
   border-radius: 6px;
 }
 
@@ -181,7 +181,7 @@ margin-top: 15px;
   padding: 10px;
   font-size: 16px;
   color: #ffffff;
-  background-color: #1c9cf3;
+  background-color: #242424;
   border: none;
   border-radius: 10px;
   cursor: pointer;
@@ -196,7 +196,7 @@ margin-top: 15px;
 .cardRegister form input[type="email"]:focus,
 .cardRegister form input[type="password"]:focus {
   outline: none;
-  border-color: #1c9cf3; 
+  border-color: #242424; 
 }
 
 
@@ -225,7 +225,7 @@ margin-top: 15px;
     width: 100%;
     text-align: center;
     padding: 20px;
-    background-color: #263240;
+    background-color: #454545;
     color: #f0f0f0;
   }
 }
@@ -255,7 +255,7 @@ margin-top: 15px;
     width: 100%;
     text-align: center;
     padding: 20px;
-    background-color: #263240;
+    background-color: #454545;
     color: #f0f0f0;
   }
 }
@@ -286,7 +286,7 @@ margin-top: 15px;
     font-family: 'Nunito Sans', sans-serif;
     text-align: center;
     padding: 20px;
-    background-color: #263240;
+    background-color: #454545;
     color: #f0f0f0;
   }
 }
@@ -313,7 +313,7 @@ margin-top: 15px;
     width: 100%;
     text-align: center;
     padding: 20px;
-    background-color: #263240;
+    background-color: #454545;
     color: #f0f0f0;
   }
 }*/
@@ -342,7 +342,7 @@ margin-top: 15px;
     width: 100%;
     text-align: center;
     padding: 20px;
-    background-color: #263240;
+    background-color: #454545;
     color: #f0f0f0;
   }
 }
@@ -373,7 +373,7 @@ margin-top: 15px;
     width: 100%;
     text-align: center;
     padding: 20px 0;
-    background-color: #263240;
+    background-color: #454545;
     color: #f0f0f0;
   }
 
@@ -384,7 +384,7 @@ margin-top: 15px;
     width: 100%;
     text-align: center;
     padding: 20px 0;
-    background-color: #263240;
+    background-color: #454545;
     color: #f0f0f0;
   }
 }
@@ -396,7 +396,7 @@ margin-top: 15px;
     width: 100%;
     text-align: center;
     padding: 20px 0;
-    background-color: #263240;
+    background-color: #454545;
     color: #f0f0f0;
   }
 }
@@ -419,7 +419,7 @@ margin-top: 15px;
 .card2 {
   text-align: center;
   width: 200px;
-  background-color: #263240;
+  background-color: #454545;
   padding: 10px;
   margin-bottom: 10px;
   border-radius: 8px;
@@ -427,7 +427,7 @@ margin-top: 15px;
 
 .info-button,
 .donate-button {
-  background-color: #1c9cf3;
+  background-color: #242424;
   color: #fff;
   border: none;
   padding: 10px 20px;
@@ -459,7 +459,7 @@ margin-top: 15px;
   font-family: "Ramabhadra", sans-serif;
   width: 50%;
   max-width: 400px;
-  background-color: #263240;
+  background-color: #454545;
   padding: 30px;
   border-radius: 20px;
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
@@ -489,8 +489,8 @@ margin-top: 15px;
   font-family: "Ramabhadra", sans-serif;
   font-size: 16px;
   color: #ffffff;
-  background-color: #1c9cf3;
-  border: 1px solid #1c9cf3;
+  background-color: #242424;
+  border: 1px solid #242424;
   border-radius: 6px;
   cursor: pointer;
   transition: background-color 0.3s, border 0.3s;
