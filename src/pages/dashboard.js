@@ -71,7 +71,7 @@ function Dashboard() {
     useEffect(() => {
         const fetchDashboardData = async () => {
             try {
-                const response = await fetch('http://144.217.158.77:4000/api/v3/account/dashboard', {
+                const response = await fetch('https://144.217.158.77:4001/api/v3/account/dashboard', {
                     method: 'GET',
                     headers: {
                         'Content-Type': 'application/json',
