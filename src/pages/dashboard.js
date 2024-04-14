@@ -130,7 +130,7 @@ function Dashboard() {
 
     const buttonDownload = async (key) => {
         try {
-            const response = await fetch(`https://144.217.158.77:5000/api/v1/downloads/plugins=${key.toLowerCase()}.jar`, {
+            const response = await fetch(`https://144.217.158.77:5000/api/v1/downloads/plugins=${key.toLowerCase()}`, {
                 method: 'GET',
                 headers: {
                     'Content-Type': 'application/json',
@@ -223,7 +223,7 @@ function Dashboard() {
                                 <div className="containerIP">
                                     <div className="cardIP">
                                         <p className='titulo'>AntaresCore.jar</p>
-                                        <button className="donate-button"><a href="" className='semtexto'>Baixar</a></button>
+                                        <button className="donate-button"><a className='semtexto'>Baixar</a></button>
                                     </div>
                                 </div>
                             );
